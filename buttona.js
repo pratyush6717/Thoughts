@@ -7,7 +7,7 @@ $('.buttona').on('click',function(){
 });
 });
 var o=0;
-	var ttt=["We exist too much in the minds of others, worrying constantly about what others are thinking of us.","But the truth is that our needlessly tense and preciously brief lives have no meaning other than what we make of them.","To the infinitely large galaxies and stars, our anxieties, sorrows, joys and tensions are insignificant.","Come, set free these thoughts overloading your brain. Let them float away in the sky of thoughts.","A box will pop up now where you can put the heart aches, burdens and anxieties troubing you. Don't worry, nobody will be able to judge, comment or criticize it.","<textarea class='form-control' placeholder='How are you feeling?'></textarea><br><input type='checkbox' checked> Allow comments<span style='float:right'><span onclick='submit();' class='msgbtn'>Submit</span> | <span onclick='skip(false);' class='msgbtn'>Skip</span></span>"];
+	var ttt=["We exist too much in the minds of others, worrying constantly about what others are thinking of us.","But the truth is that our needlessly tense and preciously brief lives have no meaning other than what we make of them.","To the infinitely large galaxies and stars, our anxieties, sorrows, joys and tensions are insignificant.","Come, set free these thoughts overloading your brain. Let them float away in Overthinker's Lounge.","A box will pop up now where you can put your thoughts. Don't worry, nobody will be able to judge, comment or criticize it.","<textarea class='form-control' placeholder='How are you feeling?'></textarea><br><input type='checkbox' checked> Allow comments<span style='float:right'><span onclick='submit();' class='msgbtn'>Submit</span> | <span onclick='skip(false);' class='msgbtn'>Skip</span></span>"];
 
 
 $('body').keyup(function(e){
@@ -39,7 +39,7 @@ window.addEventListener('touchstart', function() {
 function skip(v){
 	$('#content').fadeOut('slow', function() {
 		var msg=v===true?'Thank you. This message will now float away to the sky.':'No issues.';
-    $('#content').html("<div class='messages col-md-6 col-sm-12 col-xs-12'>"+msg+" You will now be taken to the sky of thoughts. The sky of thought shows that pain and sadness are universal part of human existence. We all are together in facing them. Come, let's go. <br><br> <a class='button' href='thoughts.html'>Proceed</a></div>");
+    $('#content').html("<div class='messages col-md-6 col-sm-12 col-xs-12'>"+msg+" You will now be taken to Overthinker's Lounge. The sky of thought shows that pain and sadness are universal part of human existence. We all are together in facing them. Come, let's go. <br><br> <a class='button' href='thoughts.html'>Proceed</a></div>");
     $('#content').fadeIn('slow');
 });
 }
